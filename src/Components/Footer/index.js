@@ -6,18 +6,18 @@ const Footer = () => {
 			<section>
 				<ul>
 					<li>
-						<a href='facebook.com' target='_blank'>
-							<img src='/public/assets/fb.png' alt='Facebook' />
+						<a href='https://facebook.com' target='_blank' rel='noreferrer'>
+							<img src='/images/fb.png' alt='Facebook' />
 						</a>
 					</li>
 					<li>
-						<a href='twitter.com' target='_blank'>
-							<img src='/public/assets/tw.png' alt='Twitter' />
+						<a href='https://twitter.com' target='_blank' rel='noreferrer'>
+							<img src='/images/tw.png' alt='Twitter' />
 						</a>
 					</li>
 					<li>
-						<a href='instagram.com' target='_blank'>
-							<img src='/public/assets/ig.png' alt='Instagram' />
+						<a href='https://instagram.com' target='_blank' rel='noreferrer'>
+							<img src='/images/ig.png' alt='Instagram' />
 						</a>
 					</li>
 				</ul>
@@ -26,7 +26,13 @@ const Footer = () => {
 				<img src='/public/assets/logo.png' alt='' />
 			</section>
 			<section>
-				<p>Desenvolvido por Ian Augusto Silva</p>
+				<p>
+					Desenvolvido por
+					<a href='https://instagram.com/ianaugustosilvva'>
+						{" "}
+						Ian Augusto Silva
+					</a>
+				</p>
 			</section>
 		</footer>
 	);

@@ -1,4 +1,4 @@
-import Collaborator from "../Collaborator";
+import Collaborator from "../Card";
 import "./style.css";
 
 export const Team = (props) => {
