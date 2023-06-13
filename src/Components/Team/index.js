@@ -5,7 +5,7 @@ export const Team = (props) => {
 	const secondaryColor = { backgroundColor: props.secondaryColor };
 	const borderColor = { borderColor: props.primaryColor };
 
-	return (
+	return props.collaborators.length > 0 ? (
 		<section className='team' style={secondaryColor}>
 			<h3 style={borderColor}>{props.name}</h3>
 			<div className='collaborators'>
@@ -18,5 +18,7 @@ export const Team = (props) => {
 				))}
 			</div>
 		</section>
+	) : (
+		""
 	);
 };

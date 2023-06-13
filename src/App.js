@@ -2,6 +2,7 @@ import { useState } from "react";
 import Banner from "./Components/Banner";
 import Form from "./Components/Form";
 import { Team } from "./Components/Team";
+import Footer from "./Components/Footer";
 
 function App() {
 	const teams = [
@@ -69,6 +70,7 @@ function App() {
 					)}
 				/>
 			))}
+			<Footer />
 		</div>
 	);
 }
